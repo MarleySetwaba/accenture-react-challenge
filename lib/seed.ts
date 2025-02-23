@@ -1,6 +1,8 @@
 import { db } from "@/db/drizzle";
 import { brands } from "@/db/schema";
 
+
+//in memory database in-case you want to test without the database
 const brandsData = [
   {
     id: 2,

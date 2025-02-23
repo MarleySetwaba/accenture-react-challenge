@@ -30,7 +30,7 @@ const WhatWeDo = () => {
 
 <div className='grid md:grid-cols-12 pt-10 grid-cols-1'>
 <IconSection 
-header='Web developement'
+header='Web development'
 text='We use cutting-edge web development technologies to help our clients fulfill their business goals through functional, reliable solutions.'
 image='/assets/app_dev_icon.svg'
 />
@@ -40,7 +40,7 @@ text='Our complete web design services will bring your ideas to life and provide
 image='/assets/ux_icon.svg'
 />
 <IconSection
-header='Mobile app developement'
+header='Mobile app development'
 text='Our extensive mobile development experience allows us to create custom native and cross-platform iOS and Android mobile solutions for our clients.'
 image='/assets/web_dev_icon.svg'
 />
