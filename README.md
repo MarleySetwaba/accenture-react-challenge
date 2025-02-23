@@ -37,4 +37,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 
 ## Side Note
-
+I already deployed this application on Vercel, and you can view the finished project [Here](https://accenture-react-challenge.vercel.app/)
