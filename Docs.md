@@ -28,15 +28,15 @@ For this project, I decided to use NEXT.js to implement both the frontend and th
 
 I decided to use Tailwind for styling and Shadcn for UI components such as the Slider.
 
-I decided to use Neon Postgres for the database. Neon Postgres is a serverless platform designed to host and scale postgres databases. I also decided to use Drizzle ORM as a dev dependency as my ORM to make simple calls to the database from my application. 
+I decided to use Neon Postgres for the database. Neon Postgres is a serverless platform designed to host and scale postgres databases. I also decided to use Drizzle ORM as a dev dependency as the ORM to make calls to the database from the application. 
 
-Lastly, I needed a CDN to host my images and retrieve them. So I decided to use Cloudinary to host the brands images and install the 'next-cloudinary' package to easily integrate Cloudinary into my application.
+Lastly, I needed a platform to host the images and retrieve them. So I decided to use Cloudinary to host the brands images and install the 'next-cloudinary' package to easily integrate Cloudinary into the application.
 
-The idea was to upload the brand images onto my Cloudinary account and then use the image URL/ID from Cloudinary in my database to target the brands image URL/ID in the application and display it in the UI. 
+The idea was to upload the brand images onto my Cloudinary account and then use the image URL/ID from Cloudinary in the database to target the brands image URL/ID in the application and display it in the UI. 
 
 
 ## Filtering and Sorting
-The filtering and sorting functionality was relatively easy to implement, but there were a few challenges. The challenge was to figure out how to sort and filter the brand images without making too many calls to the database. To make the app more efficient, the idea would to make a single call to the database to get all the brand images, then store them in a state, and call the necessary sorting and filtering functions on that state. I also didn't want to over-engineer the solution by using solutions such as Redux to manipulate the state for just a few properties. So I decided to store the state in the URL. 
+The filtering and sorting functionality was relatively easy to implement, but there were a few challenges. The challenge was to figure out how to sort and filter the brand images without making too many calls to the database. To make the app more efficient, the idea would be to make a single call to the database to get all the brand images, then store them in a state, and call the necessary sorting and filtering functions on that state. I also didn't want to over-engineer the solution by using solutions such as Redux to manipulate the state for just a few properties. So I decided to store the state in the URL. 
 
 The idea is basically this: 
 - Upon request to the home page (e.g "/"), the NEXT.js middleware would append 2 query parameters to the URL. 
