@@ -24,7 +24,7 @@ const WhatWeDo = () => {
     <div className='px-10 py-24'>
         <SectionHeader text='What We Do'/>
 <blockquote className="text-3xl md:text-5xl/snug font-semibold text-gray-800 text-left text-wrap">
-    <p className='tracking-tight'>We offer a complete range of bespoke design and developement services to help you turn your ideas into digital masterpieces.</p>
+    <p className='tracking-tight'>We offer a complete range of bespoke design and development services to help you turn your ideas into digital masterpieces.</p>
 </blockquote>
 
 
