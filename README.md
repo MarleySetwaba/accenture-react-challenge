@@ -38,3 +38,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Side Note
 I already deployed this application on Vercel, and you can view the finished project [Here](https://accenture-react-challenge.vercel.app/)
+
+##Filtering And Sorting
+To filter the brands, please navigate to the url paramaters, find the "published" property and change the value to "true" to display all published brands, and "false" for all brands.
+
+To sort the brands, please navigate to the url paramaters, find the "brand_sort" property and change the value to "asc" to display all brands in ascending order, and "desc" for descending order.
