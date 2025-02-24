@@ -22,7 +22,7 @@ const Slider = () => {
         <h1 className="text-2xl md:text-3xl font-semibold text-white mb-3">
           The Olympian
         </h1>
-        <p className="text-base md:text-lg font-thin text-gray-300">
+        <p className="text-base md:text-lg text-gray-200">
         The only athlete in the world to do her Olympic routine in 2020.              
         </p>
       </div>
@@ -35,7 +35,7 @@ const Slider = () => {
         <h1 className="text-2xl md:text-3xl font-semibold text-white mb-3">
           The Savings Jar
         </h1>
-        <p className="text-base md:text-lg font-thin text-gray-300">
+        <p className="text-base md:text-lg text-gray-200">
         Grow your savings treasure and grow your dragon.
         </p>
       </div>
@@ -48,7 +48,7 @@ const Slider = () => {
         <h1 className="text-2xl md:text-3xl font-semibold text-white mb-3">
          Skhokho seMali
         </h1>
-        <p className="text-base md:text-lg font-thin text-gray-300">
+        <p className="text-base md:text-lg text-gray-200">
         Helping South Africans become #CashCleva with Skhokho and TymeBank.
         </p>
       </div>
