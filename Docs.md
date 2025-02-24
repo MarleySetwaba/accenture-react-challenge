@@ -36,7 +36,7 @@ The idea was to upload the brand images onto my Cloudinary account and then use 
 
 
 ## Filtering and Sorting
-The filtering and sorting functionality was relatively easy to implement, but there were a few challenges. The challenge was to figure out how to sort and filter the brand images without making too many calls to the database. To make the app more efficient, the idea would to make a single call to the database to get all the brand images, then store them in a state, and call the necessary sorting and filtering functions on that state. I also didn't want to build an entire UI component on the home page just to sort and filter the brands. I also didn't want to over-engineer the solution by using solutions such as Redux to manipulate the state for just a few properties. So I decided to store the state in the URL. 
+The filtering and sorting functionality was relatively easy to implement, but there were a few challenges. The challenge was to figure out how to sort and filter the brand images without making too many calls to the database. To make the app more efficient, the idea would to make a single call to the database to get all the brand images, then store them in a state, and call the necessary sorting and filtering functions on that state. I also didn't want to over-engineer the solution by using solutions such as Redux to manipulate the state for just a few properties. So I decided to store the state in the URL. 
 
 The idea is basically this: 
 - Upon request to the home page (e.g "/"), the NEXT.js middleware would append 2 query parameters to the URL. 
