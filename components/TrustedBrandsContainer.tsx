@@ -17,7 +17,7 @@ const TrustedBrandsContainer = async () => {
   }
 
   return (
-    <div className="px-10 py-24">
+    <div className="px-5 py-24">
       <SectionHeader text="You'll be in good company" />
       <h1 className="text-3xl md:text-5xl font-bold text-gray-900 mb-5">
         Trusted by leading brands
