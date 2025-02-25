@@ -36,18 +36,11 @@ The idea was to upload the brand images onto my Cloudinary account and then use 
 
 
 ## Filtering and Sorting
-The filtering and sorting functionality was relatively easy to implement, but there were a few challenges. The challenge was to figure out how to sort and filter the brand images without making too many calls to the database. To make the app more efficient, the idea would be to make a single call to the database to get all the brand images, then store them in a state, and call the necessary sorting and filtering functions on that state. I also didn't want to over-engineer the solution by using solutions such as Redux to manipulate the state for just a few properties. So I decided to store the state in the URL. 
+I implemented a new sorting and filtering feature in the UI of the application. Initially, my first solution was to filter and sort the brands using query params in the URL. But as I read the requirements, I was convinced that the functionality required there be a UI component to allow the user to filter and sort the brands.
 
-The idea is basically this: 
-- Upon request to the home page (e.g "/"), the NEXT.js middleware would append 2 query parameters to the URL. 
- - "brand_sort" to sort the brand images, the value "asc" to display all brands in ascending order, and "desc" for descending order.
+So in this solution, I used a select and checkbox UI component. The two components allow the user to change the state of all the brands that were fetched from the database, i.e. to filter and sort them.
 
-- and "published" to filter the brand images, the value to "true" to display all published brands, and "false" to display all brands.
+I created a new git branch called "ui-sort-filter-feature" to implement this, and the main branch still has the first solution.
 
-This solution seemed more practical, instead of making multiple calls to the database. 
-
-Since NEXT.js 15 doesn't implement caching data automatically anymore, it is worth noting that implementing a caching solution for fetching data from the database would make the application more performant. 
-
-## New Branch
 
 
