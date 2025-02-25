@@ -48,5 +48,6 @@ This solution seemed more practical, instead of making multiple calls to the dat
 
 Since NEXT.js 15 doesn't implement caching data automatically anymore, it is worth noting that implementing a caching solution for fetching data from the database would make the application more performant. 
 
+## New Branch
 
 
