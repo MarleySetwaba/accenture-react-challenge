@@ -12,10 +12,6 @@ import {
 } from "@/components/ui/select"
 import { Checkbox } from "@/components/ui/checkbox"
 
-
-
-import { useSearchParams } from "next/navigation";
-
 interface Brand {
   id: number;
   name: string;
